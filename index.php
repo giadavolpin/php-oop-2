@@ -2,7 +2,7 @@
 include_once __DIR__ . '/Models/Products.php';
 include_once __DIR__ . '/Models/Categorie.php';
 ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,22 +16,17 @@ include_once __DIR__ . '/Models/Categorie.php';
 </head>
 
 <body>
-    <!-- As a link -->
+    
     <nav class="navbar bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">E-commerce</a>
         </div>
     </nav>
-
-
     <main>
         <div class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                
             </div>
         </div>
 
@@ -41,4 +36,4 @@ include_once __DIR__ . '/Models/Categorie.php';
     </footer>
 </body>
 
-</html>
+</html> -->

@@ -1,11 +1,12 @@
 <?php
 
-class Cibo
+class Cibo extends Products
 {
-    public $prezzo;
+
     public $gusto;
     public $marca;
     public $consistenza;
+
 
     function __construct()
     {
@@ -14,5 +15,6 @@ class Cibo
 
 }
 
+$Croccantini = new Croccantini(5.49, 'pollo', 'monge', 'dura');
 
 ?>

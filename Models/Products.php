@@ -4,20 +4,14 @@ include_once __DIR__ . '/Models/Giochi.php';
 include_once __DIR__ . '/Models/Cucce.php';
 class Products
 {
-    public $cibo;
-    public $giochi;
-    public $cucce;
+    public $img;
+    public $titolo;
+    public $prezzo;
+    public $iconaCategoria;
 
-    function __construct($_cibo, $_giochi, $_cucce)
+    function __construct()
     {
-        $this->cibo = $_cibo;
-        $this->giochi = $_giochi;
-        $this->cucce = $_cucce;
-
     }
-
-
 }
-
 
 ?>

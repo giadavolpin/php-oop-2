@@ -1,8 +1,7 @@
 <?php
 
-class Giochi
+class Giochi extends Products
 {
-    public $prezzo;
     public $forma;
     public $materiale;
     public $marca;
