@@ -9,10 +9,10 @@ class Products
     public $cucce;
 
     function __construct($_cibo, $_giochi, $_cucce)
-    { 
-        $this ->cibo = $_cibo;
-        $this ->giochi = $_giochi;
-        $this ->cucce; = $_cucce;  
+    {
+        $this->cibo = $_cibo;
+        $this->giochi = $_giochi;
+        $this->cucce = $_cucce;
 
     }
 
