@@ -1,7 +1,12 @@
 <?php
-include_once __DIR__ . '/Models/Products.php';
-include_once __DIR__ . '/Models/Categorie.php';
-?>
+require_once __DIR__ . '/Models/Categorie.php';
+require_once __DIR__ . '/Models/Giochi.php';
+require_once __DIR__ . '/Models/Cibo.php';
+require_once __DIR__ . '/Models/Cucce.php';
+
+var_dump()
+    ?>
+
 <!-- <!DOCTYPE html>
 <html lang="en">
 

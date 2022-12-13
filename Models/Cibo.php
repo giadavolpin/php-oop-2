@@ -1,5 +1,5 @@
 <?php
-
+include_once __DIR__ . '/Models/Products.php';
 class Cibo extends Products
 {
 
@@ -14,7 +14,7 @@ class Cibo extends Products
 
 
 }
-
+/* 
 $Croccantini = new Croccantini(5.49, 'pollo', 'monge', 'dura');
-
+*/
 ?>
