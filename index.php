@@ -4,6 +4,8 @@ require_once __DIR__ . '/Models/Giochi.php';
 require_once __DIR__ . '/Models/Cibo.php';
 require_once __DIR__ . '/Models/Cucce.php';
 
+new Giochi()
+
 var_dump()
     ?>
 

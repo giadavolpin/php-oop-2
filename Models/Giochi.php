@@ -6,8 +6,12 @@ class Giochi extends Products
     public $materiale;
     public $marca;
 
-    function __construct()
+    function __construct($_forma, $_materiale, $_marca)
     {
+        parent::__construct($_forma, $_materiale);
+        $this->forma = $_forma;
+        $this->materiale = $_materiale;
+        $this->marca = $_marca;
     }
 
 
