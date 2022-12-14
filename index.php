@@ -18,6 +18,13 @@ function lavabile($string)
 }
 
 
+try {
+    echo lavabile('si');
+} catch (Exception $e) {
+    echo 'Eccezione:' . $e->getMessage();
+}
+
+
 ?>
 
 <!-- <!DOCTYPE html>
