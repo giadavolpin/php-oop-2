@@ -4,9 +4,8 @@ require_once __DIR__ . '/Models/Giochi.php';
 require_once __DIR__ . '/Models/Cibo.php';
 require_once __DIR__ . '/Models/Cucce.php';
 
-new Giochi($forma, $materiale, $marca);
-
-var_dump(Giochi);
+$pallina = new Giochi("rotonda", "gomma", "Belcane", "url", "palla", "7.30", "cane");
+var_dump($pallina);
 ?>
 
 <!-- <!DOCTYPE html>
