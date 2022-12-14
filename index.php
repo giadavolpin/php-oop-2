@@ -4,10 +4,10 @@ require_once __DIR__ . '/Models/Giochi.php';
 require_once __DIR__ . '/Models/Cibo.php';
 require_once __DIR__ . '/Models/Cucce.php';
 
-new Giochi()
+new Giochi($forma, $materiale, $marca);
 
-var_dump()
-    ?>
+var_dump(Giochi);
+?>
 
 <!-- <!DOCTYPE html>
 <html lang="en">
