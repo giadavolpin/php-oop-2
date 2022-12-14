@@ -8,6 +8,16 @@ $pallina = new Giochi("rotonda", "gomma", "Belcane", "url", "palla", "7.30", "ca
 var_dump($pallina);
 $cuccia = new Cucce("piccolo", "monge", "cotone");
 var_dump($cuccia);
+
+function lavabile($string)
+{
+    if (!is_string($string)) {
+        throw new Exception('Is not a text');
+    }
+    return $string;
+}
+
+
 ?>
 
 <!-- <!DOCTYPE html>
