@@ -6,6 +6,8 @@ require_once __DIR__ . '/Models/Cucce.php';
 
 $pallina = new Giochi("rotonda", "gomma", "Belcane", "url", "palla", "7.30", "cane");
 var_dump($pallina);
+$cuccia = new Cucce("piccolo", "monge", "cotone");
+var_dump($cuccia);
 ?>
 
 <!-- <!DOCTYPE html>
